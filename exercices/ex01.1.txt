@@ -1,0 +1,36 @@
+Les entrées/sorties peuvent se faire sur les flux standards avec input et print.
+Pour des lectures/écritures simples dans des fichiers, on utilisera open.
+>>> print("hello", input("name?\n")) name?
+bob
+hello bob
+>>> print(*open("test.txt"), sep="") line 1
+line 2
+line 3
+line 4
+
+Exercice : Deviner le nombre secret
+
+Écrivez un programme Python qui génère un nombre aléatoire entre 1 et 100 (inclus) et demande à l'utilisateur de deviner ce nombre secret. Le programme devrait donner des indices pour aider l'utilisateur à deviner, tels que "Trop bas" ou "Trop élevé". Le programme doit également compter le nombre de tentatives nécessaires pour deviner correctement le nombre.
+
+Voici un exemple d'exécution du programme :
+---------------------------------------
+Bienvenue dans le jeu "Devine le nombre secret" !
+Je vais choisir un nombre entre 1 et 100, et vous devez deviner quel est ce nombre.
+
+Devinez un nombre : 50
+Trop élevé. Essayez encore.
+
+Devinez un nombre : 25
+Trop bas. Essayez encore.
+
+Devinez un nombre : 37
+Bravo ! Vous avez deviné le nombre secret en 3 tentatives.
+-------------------------------------------
+
+Consignes supplémentaires :
+
+Utilisez la bibliothèque random pour générer le nombre secret.
+Utilisez une boucle while pour permettre à l'utilisateur de deviner jusqu'à ce qu'il trouve le bon nombre.
+Utilisez des instructions conditionnelles pour donner des indices appropriés.
+Tenez compte du nombre de tentatives et affichez-le à la fin.
+Conseil : Vous pouvez utiliser la fonction random.randint(min, max) pour générer un nombre aléatoire entre min et max.
