@@ -1,0 +1,9 @@
+#################################################
+Affichages et boucles
+#################################################
+
+1. Écrire une boucle qui affiche les entiers de 1 à 10. Utiliser
+d'abord une boucle while puis essayer avec une boucle for.
+Généraliser au sein d'une fonction avec un paramètre.
+Définir un tableau d'entiers, puis un tableau de mots.
+Proposer une fonction permettant d'afficher le contenu de tels tableaux.

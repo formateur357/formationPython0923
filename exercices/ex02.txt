@@ -1,0 +1,12 @@
+#################################################
+Entrées / Sorties : Fichier
+#################################################
+
+1. Parcourir l'ensemble des lignes d'un fichier rajouter un commentaire
+dans chacun d'entre eux.
+On choisit ici de remplacer la première ligne par elle même
+suivie d'un commentaire constant.
+
+
+2. A partir d'un fichier texte, on souhaite calculer le nombre de lignes,
+de mots et de caractères du texte.

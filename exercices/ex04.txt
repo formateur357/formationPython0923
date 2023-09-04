@@ -1,0 +1,27 @@
+#################################################
+Programmation Orientée Objet
+#################################################
+1. Faire une classe Personne contenant les attributs suivants : nom,
+prénom, age et addresse
+Faire le constructeur
+Faire la méthode d'instance afficher() qui affiche les informations
+sur la personne
+Faire les getters des attributs age, adresse (get_age et get_adresse)
+Faire la méthode vieillir qui fait vieillir la personne d'un an à chaque appelle
+Faire le script qui permet de tester toutes ses méthodes
+
+2. Faire deux classes PersonneParent et PersonneEnfant qui héritent
+de la classe Personne
+La classe PersonneParent contient un attribut "enfants" qui est une
+liste d'enfants
+La classe PersonneEnfant contient un attribut "parents" qui est une
+liste de parents
+Faire les constructeurs
+Faire la méthode ajouterEnfant dans la classe PersonneParent
+Faire la méthode estMonEnfant prenant en paramètre un enfant et
+retourne true ou false  dans la classe PersonneParent
+Faire la méthode estMonParent prenant en paramètre un parent et
+retourne true ou false  dans la classe PersonneEnfant
+Surcharger la méthode afficher() pour les deux classes en mettant plus
+de renseignements
+Refactoriser le code en mettant les attributs enfants et parent dans Personne  
