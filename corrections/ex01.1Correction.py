@@ -49,5 +49,5 @@ while True:
             print("Trop haut. Essayez encore.")
     else:
         # L'utilisateur a deviné correctement, sortez de la boucle.
-        print(f'Bravo ! Vous avez devine le nombre secret ({secret_number}).')
+        print(f'Bravo ! Vous avez devine le nombre secret ({secret_number}) en {attempt} tentatives.')
         break
