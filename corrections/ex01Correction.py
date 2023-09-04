@@ -1,3 +1,5 @@
+import random
+
 # Écrire une boucle Python qui affiche les entiers de 1 à 10 avec une boucle while
 
 def afficher_entiers_while():
@@ -21,8 +23,12 @@ def afficher_tableau(tableau):
         
 # Exemple d'utilisation des fonctions
 def exemple():
+    rand = random.randint(0, 100)
+    print(rand)
     entiers = [23, 45, 6, 89, 0]
     mots = ["hi", "bonjour", "hello"]
+    number = input("number ?")
+    print(number)
     afficher_entiers_while()
     afficher_entiers_for()
     afficher_tableau(entiers)
