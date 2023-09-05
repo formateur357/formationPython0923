@@ -21,6 +21,11 @@
 
 # Importez la bibliothèque random pour générer un nombre aléatoire.
 import random
+
+def checkScope(guess):
+    if not (0 < guess < 101):
+        raise ArithmeticError("La valeur n'est pas comprise entre 1 et 100.")
+    
 # Générez un nombre aléatoire entre 1 et 100 inclus.
 secret_number = random.randint(1, 100)
 # Initialisez le compteur de tentatives.
@@ -34,8 +39,12 @@ while True:
     # Assurez-vous que l'entrée de l'utilisateur est un nombre entier.
     try:
         guess = int(guess)
+        checkScope(guess)
     except ValueError:
         print("Veuillez entrer un nombre valide.")
+        continue
+    except ArithmeticError as e:
+        print(e)
         continue
     if guess > 100 or guess < 1:
         print("Veuillez entrer un nombre compris entre 1 et 100.")
