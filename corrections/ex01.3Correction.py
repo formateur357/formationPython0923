@@ -1,17 +1,17 @@
-# from itertools import product
+from itertools import product
 
-# # Définir un dictionnaire avec des clés et des listes de lettres.
-# donnees = {'1': ['a', 'b'], '2': ['c', 'd']}
+# Définir un dictionnaire avec des clés et des listes de lettres.
+donnees = {'1': ['a', 'b'], '2': ['c', 'd']}
 
-# # Créer une liste de listes contenant les lettres pour chaque clé.
-# listes_de_lettres = [donnees[key] for key in donnees]
+# Créer une liste de listes contenant les lettres pour chaque clé.
+listes_de_lettres = [donnees[key] for key in donnees]
 
-# # Utiliser la fonction product pour générer toutes les combinaisons possibles.
-# combinaisons = list(product(*listes_de_lettres))
+# Utiliser la fonction product pour générer toutes les combinaisons possibles.
+combinaisons = list(product(*listes_de_lettres))
 
-# # Afficher les combinaisons.
-# for combinaison in combinaisons:
-#     print(''.join(combinaison))
+# Afficher les combinaisons.
+for combinaison in combinaisons:
+    print(''.join(combinaison))
 
 
 
@@ -38,7 +38,7 @@ def generate_combinations(data, current_key_index=0, current_combination=[]):
         current_combination.pop()
 
 # Sample data: dictionary with keys and lists of letters
-data = {'1':['a','b'], '2':['c','d'], '3':['e','f']}
+data = {'1':['a','b'], '2':['c','d'], '3':['e','f'], '4':['g','h']}
 
 # Start generating combinations
 generate_combinations(data)
