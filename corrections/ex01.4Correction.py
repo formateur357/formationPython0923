@@ -1,11 +1,16 @@
+try:
     # Demander à l'utilisateur de saisir un nombre.
+    nombre = int(input("Veuillez saisir un nombre : "))
+    
     # Afficher le nombre saisi.
+    print("Vous avez saisi le nombre: ", nombre)
+except KeyboardInterrupt:
     # Gérer l'exception KeyboardInterrupt (Ctrl-C ou Delete).
+    print("\nOperation annulee par l'utilisateur")
+except ValueError:
     # Gérer l'exception si l'utilisateur entre une valeur non valide.
+    print("Erreur : Veuillez saisir un nombre entier valide.")
 # Le programme se poursuit normalement après la saisie ou l'exception.
-
-
-
 
 
 
