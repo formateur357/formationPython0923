@@ -1,0 +1,6 @@
+Moyenne d'age des etudiants : 20.50
+Etudiant avec la meilleure moyenne :
+Nom : Lefebvre
+Prenom : Sophie
+Age : 22
+Moyenne : 16.00
