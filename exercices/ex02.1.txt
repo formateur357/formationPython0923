@@ -1,0 +1,24 @@
+Exercice : Traitement de données d'étudiants
+
+1. Créez un fichier texte appelé "etudiants.txt" avec les données suivantes :
+
+Nom,Prenom,Age,Moyenne
+Dupont,Jean,20,14.5
+Durand,Marie,21,15.2
+Martin,Pierre,19,13.8
+Lefebvre,Sophie,22,16.0
+
+2. Écrivez un programme Python qui lit les données de ce fichier, calcule la moyenne d'âge des étudiants et identifie l'étudiant ayant la moyenne la plus élevée.
+
+3. Enregistrez la moyenne d'âge calculée et les informations de l'étudiant ayant la meilleure moyenne dans un nouveau fichier texte appelé "resultats.txt" de la manière suivante :
+
+Moyenne d'âge des étudiants : XX.X
+Étudiant avec la meilleure moyenne :
+Nom : XXXX
+Prénom : XXXX
+Âge : XX
+Moyenne : XX.X
+
+Assurez-vous de manipuler les données de manière appropriée, de gérer les erreurs potentielles (comme l'absence de fichier), et d'utiliser des fonctions pour organiser votre code.
+
+Cet exercice vous permettra de pratiquer la lecture et l'écriture de fichiers, le traitement de données, et l'utilisation de structures de contrôle en Python. 
