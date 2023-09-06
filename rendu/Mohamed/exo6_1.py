@@ -29,7 +29,7 @@ hours_days= [45,10]
 for k,v in salariee.items():
     content= f"{v.emp_name} ="
     if k == "Contractor":
-        print(content,f"{v.calculate_salary(hours_days[0])}€")
-    else:
         print(content,f"{v.calculate_salary(hours_days[1])}€")
+    else:
+        print(content,f"{v.calculate_salary(hours_days[0])}€")
 
