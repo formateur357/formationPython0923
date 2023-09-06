@@ -1,3 +1,29 @@
+Exercice étendu : Gestion des Employés avec Polymorphisme
+
+Dans cet exercice, nous continuerons à travailler avec la hiérarchie de classes Employee (Employé). Nous aurons trois types d'employés : FullTimeEmployee (Employé à temps plein), HourlyEmployee (Employé à l'heure), et un nouveau type appelé Contractor (Contractuel). De plus, nous introduirons le concept d'avantages sociaux pour les employés à temps plein.
+
+Étape 1 : Classe de Base Employee (Employé)
+
+Créez une classe de base Employee avec un attribut name (nom).
+Étape 2 : Implémenter les Avantages pour les Employés à Temps Plein
+
+Étendez la classe FullTimeEmployee pour inclure des avantages sociaux tels que l'assurance maladie et les cotisations retraite. Ces avantages doivent être ajoutés au salaire.
+Étape 3 : Créer une Classe Contractor (Contractuel)
+
+Créez une nouvelle classe Contractor qui hérite également de Employee. Les contractuels ont un taux horaire et un nombre fixe d'heures travaillées.
+Étape 4 : Calculer le Salaire pour les Contractuels
+
+Implémentez la méthode calculate_salary pour les contractuels afin de calculer leur salaire en fonction du taux horaire et des heures travaillées.
+Étape 5 : Calculer la Rémunération Totale pour les Employés à Temps Plein
+
+Créez une méthode dans la classe FullTimeEmployee pour calculer la rémunération totale, incluant le salaire et les avantages sociaux. Affichez la rémunération totale pour les employés à temps plein.
+Étape 6 : Démontrer le Polymorphisme
+
+Créez des instances d'FullTimeEmployee, de HourlyEmployee, et de Contractor.
+Calculez et affichez le salaire ou la rémunération totale pour chaque employé en utilisant le polymorphisme.
+
+En anglais :
+
 Expanded Exercise: Employee Management with Polymorphism
 
 In this exercise, we'll continue working with the Employee class hierarchy. We have three types of employees: FullTimeEmployee, HourlyEmployee, and a new type called Contractor. Additionally, we'll introduce the concept of benefits for full-time employees.
