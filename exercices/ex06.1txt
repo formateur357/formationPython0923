@@ -1,0 +1,23 @@
+Expanded Exercise: Employee Management with Polymorphism
+
+In this exercise, we'll continue working with the Employee class hierarchy. We have three types of employees: FullTimeEmployee, HourlyEmployee, and a new type called Contractor. Additionally, we'll introduce the concept of benefits for full-time employees.
+
+Step 1: Employee Base Class
+
+Create a base class Employee with an attribute name.
+Step 2: Implement Benefits for Full-Time Employees
+
+Extend the FullTimeEmployee class to include benefits such as health insurance and retirement contributions. These benefits should be added to the salary.
+Step 3: Create a Contractor Class
+
+Create a new class Contractor that also inherits from Employee. Contractors have an hourly rate and a fixed number of hours worked.
+Step 4: Calculate Salary for Contractors
+
+Implement the calculate_salary method for contractors to calculate their salary based on the hourly rate and hours worked.
+Step 5: Calculate Total Compensation for Full-Time Employees
+
+Create a method in the FullTimeEmployee class to calculate the total compensation, including salary and benefits. Display the total compensation for full-time employees.
+Step 6: Demonstrate Polymorphism
+
+Create instances of FullTimeEmployee, HourlyEmployee, and Contractor.
+Calculate and display the salary or total compensation for each employee using polymorphism.
