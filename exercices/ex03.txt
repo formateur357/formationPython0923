@@ -19,4 +19,4 @@ vient en + ou - de l'éventuelle valeur deja existante.
 4. On reprend ici l'exercice précédent mais à la fin de la saisie,
 on appelle un fonction qui va calculer la valeur du stock.
 Elle reçoit en paramètre le dictionnaire du stock, une valeur donnant le
-prix H.T. d'une bouteille de xxxx et le taux de TVA.
+prix H.T. d'une voiture et le taux de TVA.
