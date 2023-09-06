@@ -12,11 +12,11 @@ des nombres entrés
 Trier la liste constituée par ordre croissant puis par
 ordre décroissant.
 
-3. On utilise un Hash pour gérer un stock de voitures.
+3. On utilise un ditionnaire pour gérer un stock de voitures.
 Le nom d'une voiture est utilisé comme clef, une valeur saisie au clavier
 vient en + ou - de l'éventuelle valeur deja existante.
 
 4. On reprend ici l'exercice précédent mais à la fin de la saisie,
 on appelle un fonction qui va calculer la valeur du stock.
-Elle reçoit en paramètre le hash du stock, un hash donnant le
+Elle reçoit en paramètre le dictionnaire du stock, une valeur donnant le
 prix H.T. d'une bouteille de xxxx et le taux de TVA.
