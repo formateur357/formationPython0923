@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 #lit le fichier
-with open("C:\\Users\\mperrette\\Documents\\PROJETS\\23_Formation_python\\FormationSept2023\\Exos\\formationPython0923\\exercices\\ex02_1_content\\etudiants.txt") as fEtudiants:
+with open("/formationPython0923/exercices/ex02_1_content/etudiants.txt") as fEtudiants:
 	lRegistre = fEtudiants.read().split()
 	print(lRegistre)
 
