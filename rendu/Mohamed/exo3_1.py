@@ -34,6 +34,15 @@ def trie_mots():
             print(f"\nOrdre décroissant : {stock_mots}\n")
 #trie_mots()
 
+def calcul_stock(stock):
+    total_stock=[]
+    for k,v in stock.items():
+        print(v)
+        quantite=v[0]
+        prix=v[1]
+        total_stock.append(quantite*prix)
+    print(sum(total_stock))
+    
 def stock_voitures():
     stock_voiture={"clio":[50,20000,20],"porche":[10,200000,20],"audi":[10,200000,20]}
     try:
@@ -43,7 +52,7 @@ def stock_voitures():
                 keys = list(stock_voiture.keys())
                 if voiture in keys:
                     quantite=str(input("Nombre a défalquer du stock ex(-1 ou +1) :"))
-                    x = re.search("(-)([0-9])+|\(+)([0-9]+)", quantite)
+                    x = re.search("(-)([0-9])+|(\+)([0-9]+)", quantite)
                     if x.group()[0] == "-":
                         newstock = stock_voiture[voiture][0]-int(x.group()[1])
                         stock_voiture[voiture][0] = newstock
@@ -58,4 +67,5 @@ def stock_voitures():
                 continue
     except KeyboardInterrupt:
             print(f"\nStock voiture : {stock_voiture}\n")
+            calcul_stock(stock_voiture)
 stock_voitures()
