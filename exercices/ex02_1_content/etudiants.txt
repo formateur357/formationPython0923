@@ -1,0 +1,5 @@
+Nom,Prenom,Age,Moyenne
+Dupont,Jean,20,14.5
+Durand,Marie,21,15.2
+Martin,Pierre,19,13.8
+Lefebvre,Sophie,22,16.0
