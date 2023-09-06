@@ -6,8 +6,8 @@
 
 dRegistre = {"clio":0,"mégane":0,"sénic":0}
 
-while 1:
-	try:
+try:
+	while 1:
 		tNomvoiture = input("Entrez un nom de voiture à gérer :")
 		if tNomvoiture in dRegistre :
 			print(f"Edition flotte de voiture '{tNomvoiture}'")
@@ -21,8 +21,8 @@ while 1:
 		else:
 			print("ERREUR - Nom de voiture inconnu")
 			continue
-	except:
-		print("Fin de programme")
-		break
+except:
+	print("Fin de programme")
+	pass
 
 
