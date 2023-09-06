@@ -57,5 +57,5 @@ def stock_voitures():
                 print("Merci d'entrer une chaine de str !")
                 continue
     except KeyboardInterrupt:
-            print(f"\nOrdre croissant : {stock_voiture}\n")
+            print(f"\nStock voiture : {stock_voiture}\n")
 stock_voitures()
