@@ -10,7 +10,9 @@ line 4
 
 Exercice : Deviner le nombre secret
 
-Écrivez un programme Python qui génère un nombre aléatoire entre 1 et 100 (inclus) et demande à l'utilisateur de deviner ce nombre secret. Le programme devrait donner des indices pour aider l'utilisateur à deviner, tels que "Trop bas" ou "Trop élevé". Le programme doit également compter le nombre de tentatives nécessaires pour deviner correctement le nombre.
+Écrivez un programme Python qui génère un nombre aléatoire entre 1 et 100 (inclus) et demande à l'utilisateur de deviner ce nombre secret.
+Le programme devrait donner des indices pour aider l'utilisateur à deviner, tels que "Trop bas" ou "Trop élevé".
+Le programme doit également compter le nombre de tentatives nécessaires pour deviner correctement le nombre.
 
 Voici un exemple d'exécution du programme :
 ---------------------------------------
