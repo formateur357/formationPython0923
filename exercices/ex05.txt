@@ -1,0 +1,11 @@
+Exercise: Restaurant Class
+
+Design a Python class named Restaurant with attributes like menu_items, book_table, and customer_orders. Implement the following methods:
+
+add_item_to_menu: Use this method to add items to the restaurant's menu.
+book_tables: Implement this method to make table reservations.
+customer_order: Use this method to take customer orders.
+Print the menu.
+Print table reservations.
+Print customer orders.
+Note: Utilize dictionaries and lists to store the relevant data.
