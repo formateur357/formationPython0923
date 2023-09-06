@@ -7,7 +7,6 @@ s'il est pair ou impair. À l'issue de la saisie (Ctrl-d
 sous Unix ou Ctrl-z sous Windows) on affiche la moyenne
 des nombres entrés
 
-
 2. Constituer une liste de mots entrés au clavier l'un après l'autre.
 Trier la liste constituée par ordre croissant puis par
 ordre décroissant.
