@@ -11,4 +11,4 @@ try:
 except EOFError:
         pass
 
- print(f"Stock mis à jour : {stock}")
+print(f"Stock mis à jour : {stock}")
