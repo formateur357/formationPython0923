@@ -8,7 +8,7 @@ Créez une classe de base en Python nommée Employé avec les attributs emp_id, 
 
 Étape 2 : Méthodes de Calcul de Salaire
 
-Implémentez deux méthodes de calcul de salaire dans la classe Employé :
+Implémentez une méthode de calcul de salaire dans la classe Employé :
 calculate_salary : Cette méthode prend hours_worked en argument et calcule le salaire de l'employé en fonction du nombre d'heures travaillées. Utilisez un taux horaire de 20 $ par heure pour les employés réguliers.
 
 Étape 3 : Classe Manager
