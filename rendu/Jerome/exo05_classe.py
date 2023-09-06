@@ -1,5 +1,5 @@
 class Restaurant:
-    def __init__(self):
+    def __init__(self) -> None:
         self.menu_items = {}
         self.booked_tables = {}
         self.customer_orders = []
