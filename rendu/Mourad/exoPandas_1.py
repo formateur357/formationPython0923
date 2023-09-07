@@ -14,15 +14,18 @@ Data_Resultat={ 'ID_E':[1,2,3],
                 'Note':[[13,17,11],[12,15,18],[10,11,11]]}
 df_E=pd.DataFrame(Data_Etudiants)
 df_R=pd.DataFrame(Data_Resultat)
-df =df_E.merge(df_R[:])
-print(df)
+
 #Exercice 5 - Traitement des données manquantes :
 #Ajoutez quelques lignes avec des données manquantes à l'un de vos DataFrames créés précédemment 
 # (par exemple, des étudiants sans notes d'examen).
 df_E.loc[len(df_E)]=['4','Emmanuel','34']
 print(df_E)
+df =df_E.merge(df_R,on='ID_E',how='left')
+print(df)
+print(df.isna())
+df = df.fillna(df.mean())
 # Utilisez Pandas pour remplir les valeurs manquantes par la moyenne des notes de la matière correspondante.
-df_R.loc[len(df_R)]=['4','4',['Maths','Physique','Anglais'],]
+#df_R.loc[len(df_R)]=['4','4',['Maths','Physique','Anglais'],]
 #Exercice 6 - Pivotage de données :
 #
 #Utilisez un DataFrame contenant des données sur les ventes avec les colonnes : Date, Produit, Montant. Utilisez pivot_table pour afficher le total des ventes par produit et par mois.
