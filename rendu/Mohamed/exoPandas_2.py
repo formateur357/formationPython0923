@@ -1,7 +1,9 @@
+# %%
 #! /usr/bin/env python3
 
-import pandas as pd
 import matplotlib.pyplot as plt
+import pandas as pd
+
 
 dataload = pd.read_json("meteo.json")
 data = pd.json_normalize(dataload['results'])
@@ -24,4 +26,16 @@ df2 = df.where(df.humidity > 60)
 
 df2.to_json('precipitations_elevees.json')
 df2.to_csv('precipitations_elevees.csv')
-print(df2)
+print("################ Filtre df3 ##########")
+df3 = df[df["nom_dept"].notnull()]
+df4 = df3[df3["temp_moy"].notnull()]
+
+
+plt.figure(figsize=(10, 6))
+plt.bar(df4['nom_dept'], df4['temp_moy'])
+plt.xlabel('Meteo')
+plt.ylabel('Température en degrés')
+plt.title('Evolution de la temperature')
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.show()
