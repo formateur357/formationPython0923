@@ -19,6 +19,30 @@ class Employe:
 		print(f"Salaire de {self.emp_name} = {hours_worked} * 20 ")
 		return salary
 
+class FullTimeEmployee(Employe):
+	def __init__(self,emp_id,emp_name,emp_departement,healthinsurance,retirement_plan):
+		super().__init__(emp_id,emp_name,emp_departement)
+		self.healthinsurance = float(healthinsurance)
+		self.retirement_plan = float(retirement_plan)
+		print(
+			f'This employee works FULL-TIME with benefits : \nRetirement plan : {self.retirement_plan}\nHealth Insurance : {healthinsurance}')
+
+	def calculate_salary(self,hours_worked):
+		""" Calculate salary for amount of worked hours
+
+		:param hours_worked: integer
+		:return:
+		"""
+		advantages = self.healthinsurance + self.retirement_plan
+		salary = float((hours_worked * 20))
+		print(f"Salaire de {self.emp_name} = {hours_worked} * 20 ")
+		print(f"Avantages sociaux deduits : {self.emp_name} = {advantages}")
+		return float(salary+advantages)
+
+class RH(Employe):
+	def __init__(self):
+
+
 class Manager(Employe):
 	def __init__(self,emp_id,emp_name,emp_departement,bonus):
 		super().__init__(emp_id,emp_name,emp_departement)
@@ -36,23 +60,25 @@ class Manager(Employe):
 		return salary
 
 class Contractor(Employe):
-	def __init__(self,emp_id,emp_name,emp_departement):
+	def __init__(self,emp_id,emp_name,emp_departement,ctr_hourly_rate,ctr_workhours):
 		super().__init__(emp_id,emp_name,emp_departement)
-		print("CONTRACTOR")
+		self.ctr_hourly_rate = ctr_hourly_rate
+		self.ctr_workhours = ctr_workhours
+		print(f"CONTRACTOR at rate : {ctr_hourly_rate} with {ctr_workhours} worked hours per weeks.")
 
-	def calculate_salary(self,days_worked):
+	def calculate_salary(self):
 		"""
 		Calculate salary for amount of worked days
 
 		:param days_worked: self-explanatory (only integers)
 		:return:
 		"""
-		print(f"Salaire de {self.emp_name} = {days_worked} * 200")
-		return float(days_worked*200)
+		print(f"Salaire de {self.emp_name} = {self.ctr_hourly_rate} * {self.ctr_workhours}")
+		return float(self.ctr_hourly_rate*self.ctr_workhours)
 
 
-Henri = Employe(151,"HENRI","Logistique")
-Cécile = Employe(241,"CECILE","Achats")
+Henri = FullTimeEmployee(151,"HENRI","Logistique")
+Cécile = FullTimeEmployee(241,"CECILE","Achats")
 
 Michel = Manager(561,"MICHEL","Achats",250)
 Jean = Manager(774,"JEAN","Logistique",150)

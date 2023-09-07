@@ -1,0 +1,11 @@
+Exercice 1 - Création de DataFrame :
+
+Créez un DataFrame contenant les informations suivantes sur trois étudiants : Nom, Âge, Matière étudiée. Affichez le DataFrame.
+
+Exercice 2 - Sélection et filtrage :
+
+À partir du DataFrame créé dans l'exercice 1, sélectionnez les étudiants dont l'âge est supérieur à 25 ans.
+
+Exercice 3 - Calcul de statistiques :
+
+Calculez la moyenne d'âge des étudiants du DataFrame.
