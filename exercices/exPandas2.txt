@@ -1,0 +1,34 @@
+Exercice - Analyse de données météorologiques :
+
+Imaginez que vous avez un fichier JSON appelé "meteo.json" qui contient des données météorologiques quotidiennes pour un departement francais. Le fichier JSON contient des objets avec les attributs suivants : nom_dept, date, temp, temp_max, temp_min, humidity (en %).
+
+Partie 1 - Chargement des données :
+
+Importez la bibliothèque Pandas.
+
+Chargez le fichier JSON "meteo.json" dans un DataFrame.
+
+Affichez les cinq premières lignes du DataFrame pour avoir un aperçu des données.
+
+Partie 2 - Analyse des données :
+
+Calculez la température moyenne quotidienne en ajoutant une nouvelle colonne "temp_moy" au DataFrame.
+
+Trouvez la journée la plus chaude (température maximale la plus élevée) et la journée la plus froide (température minimale la plus basse).
+
+Calculez la moyenne des précipitations pour l'ensemble des données.
+
+Partie 3 - Filtrage des données :
+
+Créez un nouveau DataFrame contenant uniquement les données des jours où les précipitations étaient supérieures à 10 millimètres.
+
+
+Partie 4 - Exportation des résultats :
+
+Exportez le DataFrame résultant après le filtrage des précipitations élevées dans un fichier CSV appelé "precipitations_elevees.csv".
+
+Partie 5 - Visualisation (Bonus avec matplotlib):
+
+Utilisez Pandas pour créer un graphique de ligne montrant l'évolution de la température maximale au fil du temps.
+
+Créez un graphique à barres montrant le total des précipitations pour chaque mois de l'année.
