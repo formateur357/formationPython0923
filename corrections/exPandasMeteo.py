@@ -29,6 +29,10 @@ jours_precipitations_elevees = df[df['humidity'] > 80]
 # df.plot(x='date', y="temp", title="Evolution de la temperature", xlabel="Date", ylabel="Temperature en Degree Celsius")
 # mp.show()
 
-df['Mois'] = (df['date'])
+dfdate = pd.to_datetime(df['date'])
+df['Mois'] = (dfdate).dt.month
+total_precipitations_par_mois = df.groupby('Mois')['humidity'].sum()
+total_precipitations_par_mois.plot(kind='bar', title="Humidite sur le mois", xlabel="Mois", ylabel="humidite")
+mp.show()
 
 print(df)
