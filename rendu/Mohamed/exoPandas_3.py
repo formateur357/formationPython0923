@@ -56,7 +56,7 @@ print(tableau2)
 
 print("\n######### Utilisation de pivot_table  #########\n")
 
-data = pd.read_csv("ventes.csv")
+data = pd.read_csv("rendu/Mohamed/ventes.csv")
 
 df = pd.DataFrame(data)
 df.Date = pd.to_datetime(df.Date)
@@ -82,7 +82,7 @@ print(df)
 # Analyse temporelle
 ######################################################
 print("\n######### Analyse temporelle  #########\n")
-data = pd.read_csv("ventes.csv", index_col="Date", parse_dates=True, header=0)
+data = pd.read_csv("rendu/Mohamed/ventes.csv", index_col="Date", parse_dates=True, header=0)
 semaine = data.groupby('Produit').resample('W').mean()
 print(semaine[1:100])
 

@@ -1,0 +1,37 @@
+Exercice 1 - Manipulation de chaînes de caractères :
+
+Objectif : Dans cet exercice, vous allez travailler avec un fichier CSV contenant des données textuelles. Votre tâche consiste à créer une nouvelle colonne qui extrait une partie spécifique du texte de chaque ligne en utilisant la fonction str.extract() de Pandas.
+
+Énoncé :
+
+Chargez un fichier CSV (par exemple, "donnees_textuelles.csv") contenant des données textuelles en utilisant pd.read_csv().
+
+Explorez le contenu du DataFrame et identifiez la colonne contenant les données textuelles que vous souhaitez extraire.
+
+Utilisez la méthode str.extract() pour extraire la partie spécifique du texte que vous souhaitez. Par exemple, vous pouvez extraire des numéros de téléphone, des codes postaux, des adresses e-mail, ou toute autre information pertinente.
+
+Créez une nouvelle colonne dans le DataFrame pour stocker les informations extraites.
+
+Affichez le DataFrame mis à jour pour vérifier que les informations ont été correctement extraites.
+
+Conseils : Vous devrez utiliser des expressions régulières avec la méthode str.extract() pour spécifier le motif de texte que vous souhaitez extraire. Assurez-vous d'importer la bibliothèque re pour travailler avec des expressions régulières.
+
+Exercice 2 - Aggrégation de données :
+
+Objectif : Dans cet exercice, vous allez travailler avec un fichier CSV contenant des données de ventes. Votre objectif est de regrouper les données en tranches de montants de vente (par exemple, faible, moyen, élevé) en utilisant la fonction pd.cut(). Ensuite, vous calculerez la somme des ventes pour chaque groupe.
+
+Énoncé :
+
+Chargez un fichier CSV (par exemple, "donnees_ventes.csv") contenant des données de ventes en utilisant pd.read_csv().
+
+Explorez le contenu du DataFrame pour identifier la colonne contenant les montants de vente que vous souhaitez regrouper.
+
+Utilisez la fonction pd.cut() pour regrouper les montants de vente en tranches. Par exemple, vous pouvez définir des tranches pour les montants faibles, moyens et élevés.
+
+Créez une nouvelle colonne dans le DataFrame pour stocker les groupes auxquels chaque vente appartient.
+
+Utilisez groupby() pour regrouper les données par groupe et calculez la somme des ventes pour chaque groupe.
+
+Affichez le résultat pour voir la somme des ventes pour chaque groupe de montants.
+
+Conseils : Vous pouvez personnaliser les tranches et les étiquettes de groupe en fonction de vos besoins en utilisant les paramètres de la fonction pd.cut()
