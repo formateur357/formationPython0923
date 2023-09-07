@@ -11,7 +11,9 @@ data = {
 
 df = pd.DataFrame(data)
 
-# print(df)
+df['NomMatiere'] = (df['Nom'] + df['Matiere Etudiee']) / 2
+
+print(df)
 
 #ex2
 
@@ -22,6 +24,6 @@ df = pd.DataFrame(data)
 
 #ex3
 
-moyenne_age = df['Age'].mean()
+# moyenne_age = df['Age'].mean()
 
-print(f"Moyenne d'age : {moyenne_age}")
+# print(f"Moyenne d'age : {moyenne_age}")

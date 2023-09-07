@@ -20,12 +20,12 @@ Calculez la moyenne des précipitations pour l'ensemble des données.
 
 Partie 3 - Filtrage des données :
 
-Créez un nouveau DataFrame contenant uniquement les données des jours où les précipitations étaient supérieures à 10 millimètres.
+Créez un nouveau DataFrame contenant uniquement les données des jours où l'humidite étaient supérieures à 50%.
 
 
 Partie 4 - Exportation des résultats :
 
-Exportez le DataFrame résultant après le filtrage des précipitations élevées dans un fichier CSV appelé "precipitations_elevees.csv".
+Exportez le DataFrame résultant après le filtrage des humidites élevées dans un fichier CSV appelé "precipitations_elevees.csv".
 
 Partie 5 - Visualisation (Bonus avec matplotlib):
 
