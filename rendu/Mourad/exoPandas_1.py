@@ -29,9 +29,12 @@ df.fillna(value=mean, inplace=True)
 print(df)
 
 #Exercice 6 - Pivotage de données :
-#
 #Utilisez un DataFrame contenant des données sur les ventes avec les colonnes : Date, Produit, Montant. Utilisez pivot_table pour afficher le total des ventes par produit et par mois.
-#
+Data = pd.read_csv('C:/Formation_Python/formationPython0923/ventes.csv')
+df=pd.DataFrame(Data)
+print(df.head(7))
+
+
 #Exercice 7 - Manipulation de chaînes de caractères :
 #
 #Créez un DataFrame avec une colonne contenant des adresses e-mail. Utilisez Pandas pour extraire le nom de domaine (par exemple, gmail.com) de chaque adresse e-mail et stockez-le dans une nouvelle colonne.
