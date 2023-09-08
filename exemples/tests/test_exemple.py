@@ -2,6 +2,12 @@
 
 from src.exemple import add, multiply
 
+import pytest
+
+@pytest.mark.parametrize("a, b, expected", [(1, 2, 3), (0, 0, 0), (-1, 1, 0), (-1, -1, -2)])
+def test_add(a, b, expected):
+    assert add(a, b) == expected
+
 def test_add():
     assert add(1, 2) == 3
     assert add(0, 0) == 0

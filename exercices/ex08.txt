@@ -1,0 +1,20 @@
+Exercise: Interact with the PokeAPI
+
+Introduction: The PokeAPI provides data on Pokémon species, their abilities, types, and more. You can use it to retrieve detailed information about various Pokémon.
+
+Task: Write a Python program that does the following:
+
+Ask the user to enter the name or ID of a Pokémon.
+Use the requests module to send a GET request to the PokeAPI to fetch data about the specified Pokémon.
+Parse the JSON response from the API to extract and display information such as the Pokémon's name, abilities, and types.
+Hints:
+
+You can access the PokeAPI at https://pokeapi.co/api/v2/pokemon/{pokemon_name_or_id}/, where {pokemon_name_or_id} should be replaced with the name or ID of the Pokémon entered by the user.
+
+The PokeAPI response will be in JSON format. You'll need to examine the structure of the JSON response to extract the information you need. You can refer to the PokeAPI documentation for details: PokeAPI Documentation
+
+Here's a code example to get you started:
+
+see exemplePokeApi
+
+
