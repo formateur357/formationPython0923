@@ -25,3 +25,22 @@ Exercice 5 : Manipulation de forme
 Remodelez le tableau en une forme (9,).
 Ajoutez une nouvelle ligne contenant des nombres de 10 à 12.
 Concaténez verticalement le tableau original avec la nouvelle ligne
+
+Exercice 6 : Statistiques simples
+Énoncé : Créez un tableau NumPy 1D de nombres aléatoires entre 0 et 100 (inclus) de longueur 50. Ensuite, effectuez les opérations suivantes :
+
+Calculez la moyenne des éléments.
+Trouvez la valeur maximale et sa position dans le tableau.
+Triez le tableau par ordre croissant.
+
+Exercice 7 : Création de matrices
+Énoncé : Créez une matrice NumPy 2D de forme (4, 4) contenant des nombres entiers aléatoires entre 1 et 10. Ensuite, effectuez les opérations suivantes :
+
+Calculez le déterminant de la matrice.
+Calculez la transposée de la matrice.
+
+Exercice 8 : Filtrage avancé
+Énoncé : Créez un tableau NumPy 1D de longueur 100 contenant des nombres aléatoires entre 0 et 1. Ensuite, effectuez les opérations suivantes :
+
+Trouvez tous les nombres qui sont supérieurs à 0,5 et inférieurs à 0,7.
+Remplacez tous les nombres inférieurs à 0,2 par 0 et tous les nombres supérieurs à 0,8 par 1.
