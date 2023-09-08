@@ -15,6 +15,26 @@ The PokeAPI response will be in JSON format. You'll need to examine the structur
 
 Here's a code example to get you started:
 
-see exemplePokeApi
+see exemplePokeApi.py
+
+more exercise :
+
+Exercise 1: Retrieve a Random Pokémon
+
+Write a Python program that retrieves information about a random Pokémon from the PokeAPI. Display the Pokémon's name, abilities, and types. You can use the random module to select a random Pokémon ID (between 1 and 898) and then fetch its data from the API.
+
+Exercise 2: Retrieve a Pokémon's Evolution Chain
+
+Write a program that allows the user to enter the name or ID of a Pokémon. Fetch the evolution chain for that Pokémon from the PokeAPI and display the names of the Pokémon in the evolution chain. If the Pokémon has multiple evolution paths, display all of them.
+
+Exercise 3: Search for Pokémon by Type
+
+Write a program that allows the user to enter a Pokémon type (e.g., "fire," "water," "electric") and retrieve a list of Pokémon that belong to that type from the PokeAPI. Display the names of the Pokémon that match the type.
+
+Exercise 4: Retrieve a Pokémon's Moves
+
+Write a program that allows the user to enter the name or ID of a Pokémon. Fetch and display a list of the Pokémon's moves, including their names and power points (PP).
+
+These exercises will help you practice different aspects of working with the PokeAPI, including fetching data, handling user input, and displaying relevant information.
 
 
