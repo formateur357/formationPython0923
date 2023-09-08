@@ -15,7 +15,10 @@ indice = tableau.argmax()
 print(tableau.argmax())
 
 print("\n########## Tri tableau ############\n")
+sort = np.sort(tableau)
 print(np.sort(tableau))
+
+print(f"\nDécroissant \n {sort[::-1].argsort()}")
 
 print("\n########## Matrice ############\n")
 a = np.random.randint(1, 11, (4, 4))
