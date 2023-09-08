@@ -111,5 +111,7 @@ tableaufiltre = np.extract(np.logical_and(filtre1,filtre2), zerosetuns)
 print(f"Tableau Filtre : \n{tableaufiltre}")
 # Remplacez tous les nombres inférieurs à 0,2 par 0 et tous les nombres supérieurs à 0,8 par 1.
 
-filtre1 = zerosetuns <0.2
-filtre2 = zerosetuns >0.8
+zerosetuns[zerosetuns < 0.2] = 0
+zerosetuns[zerosetuns > 0.8] = 1
+
+print(f"Tableau propre : \n{zerosetuns}")
