@@ -37,5 +37,6 @@ print(np.sum(nTableau, axis=0))
 print("\n#########Remodeler #######\n")
 rTableau = np.reshape(nTableau, (27,))
 
+print("\n#########Ajout element #######\n")
 aTableau = np.append(rTableau, [28, 29, 30])
 print(aTableau)
