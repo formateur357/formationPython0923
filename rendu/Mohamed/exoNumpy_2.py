@@ -18,6 +18,7 @@ print("\n########## Tri tableau ############\n")
 sort = np.sort(tableau)
 print(f"\nCroissant \n {sort}\n")
 print(f"\nDécroissant \n {sort[::-1].argsort()}\n")
+print(f"\nDécroissant \n {-np.sort(-tableau)}\n")
 
 print("\n########## Matrice ############\n")
 a = np.random.randint(1, 11, (4, 4))
