@@ -1,0 +1,27 @@
+Exercice 1 : Création de tableaux
+Énoncé : Créez un tableau NumPy 1D contenant les nombres de 1 à 10 (inclus) et affichez-le.
+
+Exercice 2 : Opérations de base
+Énoncé : À l'aide du tableau que vous avez créé dans l'exercice 1, effectuez les opérations suivantes :
+
+Multipliez tous les éléments par 2.
+Calculez la somme de tous les éléments.
+
+Exercice 3 : Sélection et filtrage
+Énoncé : À l'aide du tableau que vous avez créé dans l'exercice 1, effectuez les opérations suivantes :
+
+Sélectionnez tous les éléments pairs.
+Sélectionnez tous les éléments supérieurs à 5.
+
+Exercice 4 : Opérations sur des tableaux 2D
+Énoncé : Créez un tableau NumPy 2D de forme (3, 3) contenant des nombres de 1 à 9. Ensuite, effectuez les opérations suivantes :
+
+Calculez la somme de chaque colonne.
+Calculez la somme de chaque ligne.
+
+Exercice 5 : Manipulation de forme
+Énoncé : À l'aide du tableau que vous avez créé dans l'exercice 4, effectuez les opérations suivantes :
+
+Remodelez le tableau en une forme (9,).
+Ajoutez une nouvelle ligne contenant des nombres de 10 à 12.
+Concaténez verticalement le tableau original avec la nouvelle ligne
